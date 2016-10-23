@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,12 +28,12 @@ namespace FundManager.Test
             _stockServiceMock.Setup(x => x.GetStocks()).Returns(StocksData.GetInitlialStocks());
             _stocks = new List<Stock>()
             {
-                new Bond(new StockCreationInformation{StockType =  StockType.Bond, Price = 10, Quantity =  10}, new ConfigurationService()),
-                new Bond(new StockCreationInformation{StockType =  StockType.Bond,Price =  20,Quantity =  20}, new ConfigurationService()),
-                new Bond(new StockCreationInformation{StockType = StockType.Bond,Price =  30,Quantity =  30}, new ConfigurationService()),
-                new Equity(new StockCreationInformation{StockType =  StockType.Equity,Price =  10,Quantity = 10}, new ConfigurationService()),
-                new Equity(new StockCreationInformation{StockType =  StockType.Equity,Price =  20, Quantity =  20}, new ConfigurationService()),
-                new Equity(new StockCreationInformation{StockType =  StockType.Equity, Price = 30, Quantity = 30}, new ConfigurationService()),
+                new Bond(new StockCreationInformation{StockType =  StockType.Bond, Price = 1, Quantity =  1, StockId = 1}, new ConfigurationService()),
+                new Bond(new StockCreationInformation{StockType =  StockType.Bond,Price =  2,Quantity =  2, StockId = 2}, new ConfigurationService()),
+                new Bond(new StockCreationInformation{StockType = StockType.Bond,Price =  3,Quantity =  3, StockId = 3}, new ConfigurationService()),
+                new Equity(new StockCreationInformation{StockType =  StockType.Equity,Price =  1,Quantity = 1, StockId = 1}, new ConfigurationService()),
+                new Equity(new StockCreationInformation{StockType =  StockType.Equity,Price =  2, Quantity =  2, StockId = 2}, new ConfigurationService()),
+                new Equity(new StockCreationInformation{StockType =  StockType.Equity, Price = 3, Quantity = 3, StockId = 3}, new ConfigurationService()),
             };
             _stockCreationInformationMock = new Mock<IStockCreationInformation>();
             var stockCreationInfo = new StockCreationInformation { Price = 10, StockType = StockType.Bond, Quantity = 10 };
