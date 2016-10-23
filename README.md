@@ -13,4 +13,6 @@ I have uploaded my solution for the problem. Please note of the following points
 
 5) I  have not used logging in this solution as I was running out of time and I wanted to finish all the features first. Having said that, I believe and agree that logging and exception handling is as important as the feature itself and is really helpful to track issues/problems.
 
+6) I have also set up some initial data so when the application is started there is some data that is loaded.
+
 
