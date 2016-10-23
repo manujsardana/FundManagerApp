@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundManager.Shared", "FundManager.Shared\FundManager.Shared.csproj", "{CA2AD4D4-6570-4A09-B06C-66B8A343FB38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundManager", "FundManager\FundManager.csproj", "{D4BBA966-E440-4257-8AC4-D9763604C3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundManager.Infrastructure", "FundManager.Infrastructure.cs\FundManager.Infrastructure.csproj", "{32382AF5-4D99-48F1-A2B3-93025443157B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundManager.Tests", "FundManager.Tests\FundManager.Tests.csproj", "{89041AB2-62F0-46DF-BC19-A27D1685DD76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{60F19FC6-6FF9-4239-9145-584C39E4D7F5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA2AD4D4-6570-4A09-B06C-66B8A343FB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2AD4D4-6570-4A09-B06C-66B8A343FB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2AD4D4-6570-4A09-B06C-66B8A343FB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2AD4D4-6570-4A09-B06C-66B8A343FB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BBA966-E440-4257-8AC4-D9763604C3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BBA966-E440-4257-8AC4-D9763604C3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BBA966-E440-4257-8AC4-D9763604C3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BBA966-E440-4257-8AC4-D9763604C3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32382AF5-4D99-48F1-A2B3-93025443157B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32382AF5-4D99-48F1-A2B3-93025443157B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32382AF5-4D99-48F1-A2B3-93025443157B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32382AF5-4D99-48F1-A2B3-93025443157B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89041AB2-62F0-46DF-BC19-A27D1685DD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89041AB2-62F0-46DF-BC19-A27D1685DD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89041AB2-62F0-46DF-BC19-A27D1685DD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89041AB2-62F0-46DF-BC19-A27D1685DD76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
